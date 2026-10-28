@@ -1,0 +1,12 @@
+App(
+    appid="battlemon_flipper",
+    name="BattleMon",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="battlemon_app_main",
+    requires=["gui"],
+    stack_size=2 * 1024,
+    fap_category="Games",
+    fap_version=(0, 1),
+    fap_description="BattleMon-like virtual pet with IR battles",
+    fap_author="you",
+)
